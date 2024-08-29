@@ -1,6 +1,6 @@
 #include "shell.h"
 
-void execute_cmd(const char *cmd) 
+void execute_cmd(const char *cmd)
 {
 	pid_t child_pid = fork();
 
