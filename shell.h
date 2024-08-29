@@ -1,10 +1,16 @@
+<<<<<<< HEAD
 #ifndef _SHELL_H_
 #define _SHELL_H_
+=======
+#ifndef SHELL_H
+#define SHEEL_H
+>>>>>>> 7926f94026f3aa87a1c05a8005973b857aa5362a
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
+<<<<<<< HEAD
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <sys/stat.h>
@@ -234,3 +240,12 @@ int replace_string(char **, char *);
 
 #endif
 
+=======
+
+void disp_prompt(void);
+void read_cmd(char *cmd, size_t size);
+void my_print(const char *msg);
+void execute_cmd(const char *cmd);
+
+#endif 
+>>>>>>> 7926f94026f3aa87a1c05a8005973b857aa5362a
